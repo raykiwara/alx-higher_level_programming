@@ -6,3 +6,5 @@ def islower(c):
         return True
     elif (c >= 'A') and (c <= 'Z'):
         return False
+    elif (c == " "):
+        print()
