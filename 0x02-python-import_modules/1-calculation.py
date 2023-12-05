@@ -5,10 +5,10 @@ if __name__ == "__main__":
     a = 10
     b = 5
 
-    add = add(10, 5)
-    sub = sub(10, 5)
-    mul = mul(10, 5)
-    div = div(10, 5)
+    add = add(a, b)
+    sub = sub(a, b)
+    mul = mul(a, b)
+    div = div(a, b)
 
     print("{} + {} = {}".format(a, b, add))
     print("{} - {} = {}".format(a, b, sub))
