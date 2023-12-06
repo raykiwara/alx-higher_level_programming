@@ -14,7 +14,7 @@ if __name__ == "__main__":
     operator = sys.argv[2]
 
     if operator == '+':
-        print("{:d} + {:d} = {:d}".format(a, b, sum(a, b))
+        print("{} + {} = {}".format(a, b, add(a, b)))
     elif operator == '-':
         print("{} - {} = {}".format(a, b, sub(a, b)))
     elif operator == '*':
