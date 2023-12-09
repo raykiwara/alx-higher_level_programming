@@ -6,7 +6,7 @@ def element_at(my_list, idx):
     a = int(a)
     if (idx < 0):
         return None
-    elif (idx < a) or (idx == a - 1):
+    elif (idx > a) or (idx == a - 1):
         return my_list[idx]
     else:
         return None
