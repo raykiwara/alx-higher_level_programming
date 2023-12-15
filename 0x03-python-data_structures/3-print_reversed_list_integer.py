@@ -1,23 +1,6 @@
 #!/usr/bin/python3
 
 def print_reversed_list_integer(my_list=[]):
-    """length = len(my_list) - 1
-    print("Length: {}".format(length))
-
-    while length > 1:
-
-        idx = 0
-        while (idx < length) or (idx == length - 1):
-
-            if my_list[idx] < my_list[idx + 1]:
-                temp = my_list[idx]
-                my_list[idx] = my_list[idx + 1]
-                my_list[idx + 1] = temp
-            idx += 1
-        length -= 1
-    for i in range(len(my_list)):
-        print("{}".format(my_list[i]))"""
-    if len(my_list) == 0:
-        return my_list
-    else:
-        return print_reversed_list_integer(my_list[1:] + my_list[0])
+    rev = my_list[::-1]
+    for i in range(len(rev)):
+        print("{}".format(rev[i]))
