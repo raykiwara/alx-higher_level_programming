@@ -2,5 +2,8 @@
 if __name__ == "__main__":
     import add_0
     a = 1
+    a = int(a)
     b = 2
-    print("{:d} + {:d} = {:d}".format(a, b, (a + b)))
+    b = int(b)
+    c = a + b
+    print("{:d} + {:d} = {:d}".format(a, b, c))
